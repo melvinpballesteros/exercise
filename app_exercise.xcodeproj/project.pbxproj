@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -71,12 +71,13 @@
 		6FF409A2274E8CA500F487AC /* app_exercise */ = {
 			isa = PBXGroup;
 			children = (
+				6FF409D6274E990A00F487AC /* Extensions */,
 				6FF409C3274E8D0500F487AC /* Storyboard */,
-				6FF409BB274E8CC300F487AC /* Managers */,
-				6FF409BA274E8CBC00F487AC /* Service */,
 				6FF409B9274E8CB700F487AC /* Resources */,
-				6FF409BC274E8CC800F487AC /* Models */,
-				6FF409B8274E8CB100F487AC /* Modules */,
+				6FF409D2274E98E500F487AC /* Services */,
+				6FF409D1274E98DF00F487AC /* Managers */,
+				6FF409D5274E98F300F487AC /* Models */,
+				6FF409D3274E98E900F487AC /* Modules */,
 				6FF409A3274E8CA500F487AC /* AppDelegate.swift */,
 				6FF409A5274E8CA500F487AC /* SceneDelegate.swift */,
 				6FF409A7274E8CA500F487AC /* ViewController.swift */,
@@ -85,88 +86,12 @@
 			path = app_exercise;
 			sourceTree = "<group>";
 		};
-		6FF409B8274E8CB100F487AC /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				6FF409BD274E8CD500F487AC /* Main */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
 		6FF409B9274E8CB700F487AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				6FF409C4274E8D1500F487AC /* Images */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		6FF409BA274E8CBC00F487AC /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
-			sourceTree = "<group>";
-		};
-		6FF409BB274E8CC300F487AC /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		6FF409BC274E8CC800F487AC /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		6FF409BD274E8CD500F487AC /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				6FF409BF274E8CDF00F487AC /* View Models */,
-				6FF409BE274E8CDB00F487AC /* Views */,
-			);
-			path = Main;
-			sourceTree = "<group>";
-		};
-		6FF409BE274E8CDB00F487AC /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				6FF409C2274E8CFC00F487AC /* Cells */,
-				6FF409C1274E8CF000F487AC /* Controllers */,
-				6FF409C0274E8CE900F487AC /* View */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		6FF409BF274E8CDF00F487AC /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Models";
-			sourceTree = "<group>";
-		};
-		6FF409C0274E8CE900F487AC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		6FF409C1274E8CF000F487AC /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		6FF409C2274E8CFC00F487AC /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		6FF409C3274E8D0500F487AC /* Storyboard */ = {
@@ -186,13 +111,95 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		6FF409D1274E98DF00F487AC /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6FF409D2274E98E500F487AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6FF409D3274E98E900F487AC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6FF409D4274E98EE00F487AC /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6FF409D4274E98EE00F487AC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6FF409D8274E991700F487AC /* View Models */,
+				6FF409D7274E991300F487AC /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6FF409D5274E98F300F487AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6FF409D6274E990A00F487AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6FF409D7274E991300F487AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FF409DB274E992700F487AC /* Cell */,
+				6FF409DA274E992300F487AC /* View */,
+				6FF409D9274E991E00F487AC /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FF409D8274E991700F487AC /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6FF409D9274E991E00F487AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6FF409DA274E992300F487AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6FF409DB274E992700F487AC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		7B18214264DBB4B0BF650D75 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				96218AD1CC19359A3712F96F /* Pods-app_exercise.debug.xcconfig */,
 				E56163617A98C6EA6E555C9E /* Pods-app_exercise.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
