@@ -13,5 +13,9 @@ class SecurityViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    
+    func anakngteteing() {
+        
+    }
 
 }
