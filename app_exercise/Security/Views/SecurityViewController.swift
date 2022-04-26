@@ -15,16 +15,6 @@ class SecurityViewController: UIViewController {
         
     }
     
-    private func setupViews(){
-        
-    }
-    
-    func test() {
-        
-    }
-    
-    func test2() {
-        
-    }
+
 
 }
