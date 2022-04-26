@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2746A0362817A59600AFBD8B /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746A0352817A59600AFBD8B /* SecurityViewController.swift */; };
+		2746A0392817A5AC00AFBD8B /* SecurityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2746A0382817A5AC00AFBD8B /* SecurityViewModel.swift */; };
 		5BBBEEB4DB43155FC88B2E4A /* Pods_app_exercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94AE68AA56D785456738ACC /* Pods_app_exercise.framework */; };
 		6FF409A4274E8CA500F487AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF409A3274E8CA500F487AC /* AppDelegate.swift */; };
 		6FF409A6274E8CA500F487AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FF409A5274E8CA500F487AC /* SceneDelegate.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2746A0352817A59600AFBD8B /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
+		2746A0382817A5AC00AFBD8B /* SecurityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewModel.swift; sourceTree = "<group>"; };
 		6FF409A0274E8CA500F487AC /* app_exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app_exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF409A3274E8CA500F487AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF409A5274E8CA500F487AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2746A0332817A57D00AFBD8B /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				2746A0372817A59B00AFBD8B /* View Model */,
+				2746A0342817A58400AFBD8B /* Views */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		2746A0342817A58400AFBD8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2746A0352817A59600AFBD8B /* SecurityViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2746A0372817A59B00AFBD8B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				2746A0382817A5AC00AFBD8B /* SecurityViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		528A4098BA4A7340E38B58FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +118,7 @@
 		6FF409A2274E8CA500F487AC /* app_exercise */ = {
 			isa = PBXGroup;
 			children = (
+				2746A0332817A57D00AFBD8B /* Security */,
 				6FF409F4274E9AAE00F487AC /* Constants */,
 				6FF409D6274E990A00F487AC /* Extensions */,
 				6FF409C3274E8D0500F487AC /* Storyboard */,
@@ -356,7 +386,9 @@
 				6FF409EF274E9A8B00F487AC /* ApiManager.swift in Sources */,
 				6FF409EC274E9A7600F487AC /* Photo.swift in Sources */,
 				6FF409A8274E8CA500F487AC /* ViewController.swift in Sources */,
+				2746A0362817A59600AFBD8B /* SecurityViewController.swift in Sources */,
 				6FF409A4274E8CA500F487AC /* AppDelegate.swift in Sources */,
+				2746A0392817A5AC00AFBD8B /* SecurityViewModel.swift in Sources */,
 				6FF409A6274E8CA500F487AC /* SceneDelegate.swift in Sources */,
 				6FF409F6274E9AB800F487AC /* Constants.swift in Sources */,
 				6FF409FC274E9B4D00F487AC /* MainCollectionViewCell.swift in Sources */,
