@@ -11,10 +11,14 @@ class SecurityViewModel {
 
     
     func test3() {
-        
+        print("sdfsdf")
     }
     
     func test4() {
+        
+    }
+    
+    func test5() {
         
     }
 
