@@ -17,6 +17,11 @@ class SecurityViewController: UIViewController {
     
     
     func createdFunction() {
+        print("sino ang plastik kaya?")
+        print("alam na kung sino")
+    }
+    
+    func ewankosayo() {
         
     }
 
