@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class SecurityViewModel {
+    
+    func test() {
+        
+    }
+    
+}
