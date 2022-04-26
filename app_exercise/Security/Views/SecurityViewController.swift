@@ -14,19 +14,5 @@ class SecurityViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-    
-    func createdFunction() {
-        print("sino ang plastik kaya?")
-        print("alam na kung sino")
-    }
-    
-    func ewankosayo() {
-        print("aum makoh")
-    }
-    
-    func test4() {
-        print("fsdf")
-    }
 
 }

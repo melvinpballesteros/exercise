@@ -8,17 +8,5 @@
 import Foundation
 
 class SecurityViewModel {
-    
-    func test() {
-        
-    }
-    
-    func test2() {
-        
-    }
-    
-    func test3() {
-        
-    }
-    
+
 }
