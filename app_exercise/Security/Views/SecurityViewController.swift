@@ -22,7 +22,11 @@ class SecurityViewController: UIViewController {
     }
     
     func ewankosayo() {
-        
+        print("aum makoh")
+    }
+    
+    func test4() {
+        print("fsdf")
     }
 
 }

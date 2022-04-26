@@ -13,4 +13,12 @@ class SecurityViewModel {
         
     }
     
+    func test2() {
+        
+    }
+    
+    func test3() {
+        
+    }
+    
 }
