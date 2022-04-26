@@ -13,5 +13,13 @@ class SecurityViewController: UIViewController {
         super.viewDidLoad()
 
     }
+    
+    func test() {
+        
+    }
+    
+    func test2() {
+        
+    }
 
 }

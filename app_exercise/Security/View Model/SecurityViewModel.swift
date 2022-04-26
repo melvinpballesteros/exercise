@@ -9,4 +9,13 @@ import Foundation
 
 class SecurityViewModel {
 
+    
+    func test3() {
+        
+    }
+    
+    func test4() {
+        
+    }
+
 }
