@@ -32,3 +32,7 @@ struct Photo: Codable {
     var isfamily: Int?
 }
 
+struct Test: Codable {
+    let feature1: String?
+}
+
