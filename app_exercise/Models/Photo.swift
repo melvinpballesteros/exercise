@@ -36,3 +36,7 @@ struct Test: Codable {
     let feature1: String?
 }
 
+struct Feature2: Codable {
+    let name: String?
+}
+
